@@ -1,0 +1,83 @@
+/* Universal Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(135deg, #74EBD5, #ACB6E5);
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    transition: background 0.5s ease;
+}
+
+#container {
+    width: 500px;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+#quote {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 2px;
+    line-height: 1.5;
+}
+
+#author {
+    font-size: 18px;
+    font-weight: 400;
+    color: #777777;
+    margin-bottom: 25px;
+    text-align: right;
+    font-style: italic;
+}
+
+#buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+button {
+    background-color: #4CAF50;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 10px;
+    transition: background 0.3s ease;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#download {
+    background-color: #2196F3;
+}
+
+#download:hover {
+    background-color: #1E88E5;
+}
+
+#share {
+    background-color: #FF5722;
+}
+
+#share:hover {
+    background-color: #F4511E;
+}
+
+#coppy{
+    background-color: #f422ff;
+}
